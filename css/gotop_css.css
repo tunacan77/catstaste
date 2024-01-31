@@ -1,0 +1,35 @@
+.gotop{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #80b7e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 8%;
+    bottom: 15%;
+    z-index: 5;
+    transition: all 0.9s;
+    cursor: pointer;
+    opacity: 0.0; /*gotop預設透明度0,下滑超過200才變1出現*/
+    border-radius: 50%
+}
+
+.gotop span{
+   font-size: 18px;
+   font-weight: 700;
+   color: white;
+}
+
+.gotop:hover{
+    background-color: #333;
+}
+
+
+@media (max-width: 992px){
+
+    .gotop{
+        right: 16px;
+    }
+
+}
