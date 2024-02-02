@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+  }
+
+body {
+    /*font-family: 'Zen Maru Gothic', serif !important;*/
+    font-family: 'Noto Sans TC', sans-serif !important;
+
+}
+
+.container_nav {
+    max-width: 1600px;
+    padding: 0 80px;
+    margin: 0 auto;
+
+}
+
+.container {
+    max-width: 1600px;
+    /*1344*/
+    padding: 0 128px;
+    margin: 0 auto;
+
+}
+
+.pd_80_0 {
+    padding: 120px 0;
+}
+
+.pd_bt80 {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 992px) {
+
+    .container_nav {
+
+        padding: 0 16px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+a {
+    display: block;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #80b7e4;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #474949;
+    letter-spacing: 1px;
+}
+
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #80b7e4;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #474949;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .pd_80_0 {
+        padding: 56px 0;
+    }   
+
+}
+
+@media (max-width: 576px) {
+    .pd_80_0 {
+        padding: 40px 0;
+    }
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+
+}
