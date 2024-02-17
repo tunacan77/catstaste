@@ -24,8 +24,7 @@ $(document).ready(function () {
     });
 
     $('.close').on('click', function () {
-        $('.popup_news').addClass('news_close')
-        $('.popup_overlay').addClass('overlay_close')
+        $('.popup').addClass('news_close')
     });
 
 });
