@@ -79,11 +79,7 @@
 }
 
 .news_close {
-    /*opacity: 0%;
-    transition: all 0.3s;*/
+
     display: none;
 }
 
-.overlay_close {
-    display: none;
-}
