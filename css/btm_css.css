@@ -1,0 +1,175 @@
+/**{
+    outline: 1px solid rgb(97, 62, 202);
+}*/
+.main_slogan h2 {
+    color: #333 !important;
+    font-weight: 400 !important;
+    font-size: 40px;
+}
+
+.main_slogan_group {
+    display: flex;
+    justify-content: center;
+}
+
+.main_slogan_mid {
+    margin: 0 24px;
+}
+
+.mid_down {
+    margin-top: 8px;
+}
+
+.main_slogan_sideright {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 768px) {
+
+    .main_slogan h2 {
+        font-size: 32px;
+    }
+
+    .main_slogan_mid {
+        width: 50%;
+        margin: 0 16px;
+    }
+
+    .main_slogan_sideleft {
+        width: 6%;
+    }
+
+    .main_slogan_sideright {
+        width: 6%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .main_slogan h2 {
+        font-size: 28px;
+    }
+
+}
+
+
+/*-------------頁底------------------*/
+.btm_link {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #DDD;
+    letter-spacing: 1px; /*文字間距*/
+}
+
+.btm_link .sideleft {
+    width: 45%;
+    text-align: center;
+}
+
+.btm_link .sideleft h2{
+    margin-bottom: 24px;
+}
+
+.btm_link .sideright {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.btm_link .sideright a {
+    color: #333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.btm_link .sideright a:hover {
+    color: #f02d20;
+    transition: 0.5s;
+}
+
+
+.btm_link .sideright li {
+    margin-bottom: 4px;
+}
+
+.bold_txt {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btm_link .sideright .sideright_a {
+    margin-right: 64px;
+}
+
+@media (max-width: 1200px) {
+
+    .btm_link .sideleft {
+        margin-right: 16px;
+    }
+
+    .btm_link .sideright .sideright_a {
+        margin-right: 32px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .btm_link .sideright .sideright_a {
+        margin-right: 16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .btm_link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btm_link .sideleft{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+
+    .btm_link .sideright{
+        width: 100% !important;
+        margin-top: 24px;
+    }
+
+    .btm_link .sideright a {
+        font-size: 18px;
+    }
+
+    .btm_link .sideright .sideright_a {
+        margin-right: 64px;
+    }    
+
+    .bold_txt{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .sideright{
+        display: flex;
+        flex-direction: column;
+    }
+    .sideright_b{
+        margin-top: 24px;
+    }
+
+}
+
+/*---------------------------------------*/
+footer {
+    padding: 56px 0;
+    text-align: center;
+    color: #474949;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffe78b;
+
+}
