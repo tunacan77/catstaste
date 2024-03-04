@@ -1,7 +1,7 @@
 /** {
     outline: 0.1px solid rgb(218, 125, 49);
-}*/
-
+}
+*/
 .vh100 {
     height: calc(100vh - 96px);
 }
@@ -234,7 +234,7 @@
 .info {
 
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .infoleft {
@@ -256,6 +256,19 @@
 
 .contact h3 a {
     color: #474949;
+}
+
+.social_link{
+    margin-top: 24px;
+    display: flex;    
+}
+
+.social_btn{
+    width: 40px;
+}
+
+.ig_btn{
+    margin-right: 8px;
 }
 
 @media (max-width: 768px) {
@@ -284,9 +297,6 @@
         padding: 16px 16px;
     }
 
-    .info {
-        margin-top: 32px;
-    }
 }
 
 
