@@ -36,6 +36,14 @@
   border-radius: 0 0 0 200px;
 }
 
+.pic04 {  
+  background-image: url(../img/mainvisual-wide-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 0 200px;
+}
+
 @media (max-width: 576px) {
   .pic01 {
     background-image: url(../img/mainvisual-576-1.jpg);
@@ -60,6 +68,15 @@
     background-position: center;
     border-radius: 0;
   }
+
+  .pic04 {
+    background-image: url(../img/mainvisual-576-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+  }
+  
 
 }
 
